@@ -1,0 +1,44 @@
+.receituario-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+  
+  .receituario-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.receituario-content th,
+.receituario-content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+  
+.receituario-content th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+  
+.receituario-content td {
+    vertical-align: middle;
+}
+
+.label-olho{
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+.input-receituario {
+    padding: 6px;
+    box-sizing: border-box;
+    width: 5vw;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  

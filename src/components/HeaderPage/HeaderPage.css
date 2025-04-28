@@ -1,0 +1,9 @@
+.page-title h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--font-color-black);
+    margin: 0;
+    margin-bottom: 30px;
+    border-left: 4px solid var(--font-color-blue, #0040ff);
+    padding-left: 10px;
+  }
