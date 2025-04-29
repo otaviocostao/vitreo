@@ -5,3 +5,10 @@
     flex-direction: column;
     box-sizing: border-box;
 }
+
+.area-receituario-medidas{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
