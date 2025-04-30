@@ -2,20 +2,35 @@
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    background-color: #ffff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--box-shadow-default);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    color: var(--font-color-black);
 }
   
   .medidas-area table {
     border-collapse: collapse;
     width: 100%;
     border-radius: 10px;
+    
 }
   
 .medidas-area th,
 .medidas-area td {
-    border: 1px solid #ccc;
     padding: 8px;
-    text-align: center;
-    font-size: 14px;
+    text-align: start;
+    font-size: 16px;
 }
   
 .medidas-area th {
@@ -25,11 +40,6 @@
   
 .medidas-area td {
     vertical-align: middle;
-}
-
-.label-olho{
-    font-size: 14px;
-    font-weight: 600;
 }
    
 .input-medidas {

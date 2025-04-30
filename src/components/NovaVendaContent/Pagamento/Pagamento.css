@@ -1,0 +1,99 @@
+.pagamento-area{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: #ffff;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--box-shadow-default);
+    gap: 12px;
+}
+
+.sumario-valor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.sumario-valor span:first-child { /* Label (Subtotal:, Total:, etc) */
+    color: var(--font-color-gray);
+}
+.sumario-valor strong {
+    font-weight: 600;
+}
+
+.input-row {
+    align-items: start; /* Alinha label no topo se for textarea */
+    flex-direction: column; /* Coloca label acima do input */
+    gap: 5px; /* Espaço entre label e input */
+}
+.input-row label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--font-color-gray);
+}
+.input-row .input-field,
+.input-row textarea {
+    margin-bottom: 0; /* Remove margem padrão do input */
+}
+.small-input {
+    max-width: 100px; /* Limita largura do input de desconto */
+    text-align: right;
+}
+
+.total-row {
+    margin-top: 10px;
+    padding-top: 10px;
+    /* border-top: 1px dashed #ccc; */ /* Linha opcional antes do total */
+}
+
+.total-value {
+    font-size: 1.3rem;
+    color: var(--font-color-blue);
+    font-weight: 700;
+}
+
+.pagamento-input-field {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: calc(var(--default-border-radius) / 2);
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Para padding não aumentar o tamanho */
+    transition: border-color 0.2s ease-in-out;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 15px 0;
+}
+
+.actions-footer {
+    display: flex;
+    justify-content: flex-end; /* Alinha botões à direita */
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.button-finalizar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: calc(var(--default-border-radius) / 2);
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: var(--font-color-blue);
+    color: white;
+  }
+  
+  .button-finalizar:hover {
+    background-color: #0033cc; /* Azul um pouco mais escuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

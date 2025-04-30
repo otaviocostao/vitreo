@@ -6,9 +6,31 @@
     box-sizing: border-box;
 }
 
+
+
+.area-receituario-completo{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
 .area-receituario-medidas{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     box-sizing: border-box;
+}
+
+.area-cliente-os{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.area-receituario-pagamento{
+    width: 100%;
+    display: flex;
 }

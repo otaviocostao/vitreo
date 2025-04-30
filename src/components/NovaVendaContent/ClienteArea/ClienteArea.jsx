@@ -11,15 +11,17 @@ const ClienteArea = () => {
 
   return (
     <div className='cliente-area'>
-        <label>Nome:</label>
-      <input
-          type="search"
-          placeholder="Buscar por nome ou CPF..."
-          className="search-input"
-        />
-        <button className="add-button" onClick={handleCadastrarCliente}>
-          + Cadastrar
-        </button>
+      <h2 className='card-title'>Cliente</h2>
+      <div className='area-input-cliente'>
+        <input
+            type="search"
+            placeholder="Buscar por nome ou CPF..."
+            className="search-input"
+          />
+          <button className="add-button" onClick={handleCadastrarCliente}>
+            + Cadastrar
+          </button>
+      </div>
     </div>
   )
 }

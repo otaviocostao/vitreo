@@ -1,15 +1,26 @@
 .cliente-area {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: start;
-    align-items: center;
+    flex-direction: column;
     margin-bottom: 25px;
+    margin-right: 20px;
     flex-wrap: wrap; /* Para responsividade */
+    
+    background-color: #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--box-shadow-default);
+  }
+
+  .area-input-cliente{
+    display: flex;
     gap: 15px;
   }
   
   .search-input {
-    width: 50%;
+    flex-grow: 1;
     padding: 10px 15px;
     border: 1px solid #d1d5db;
     border-radius: var(--default-border-radius);
