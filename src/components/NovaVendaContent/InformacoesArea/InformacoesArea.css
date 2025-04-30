@@ -1,0 +1,36 @@
+.informacoes-area {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Para responsividade */
+    gap: 15px;
+    background-color: #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: var(--default-border-radius);
+    box-shadow: var(--box-shadow-default);
+  }
+
+  .text-area-informacoes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .text-area-datas{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .input-informacoes {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: var(--default-border-radius);
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
