@@ -30,7 +30,7 @@
     flex-grow: 1;
     padding: 10px;
     border: 1px solid #d1d5db;
-    border-radius: var(--default-border-radius);
+    border-radius: calc(var( --default-border-radius)/2);
     font-size: 0.95rem;
     transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }

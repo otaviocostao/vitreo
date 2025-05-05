@@ -1,8 +1,9 @@
 .ordem-servico-area {
-    width: 13%;
+    width: 30%;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
     margin-bottom: 25px;
     flex-wrap: wrap; /* Para responsividade */
     background-color: #ffff;
@@ -13,10 +14,10 @@
 }
 
   .os-input {
-    width: 50%;
+    width: 30%;
     padding: 10px 15px;
     border: 1px solid #d1d5db;
-    border-radius: var(--default-border-radius);
+    border-radius: calc( var(--default-border-radius)/2);
     font-size: 0.95rem;
     transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }

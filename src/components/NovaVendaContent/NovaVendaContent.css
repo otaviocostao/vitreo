@@ -19,7 +19,7 @@
 .area-receituario-medidas{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 

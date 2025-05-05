@@ -3,6 +3,9 @@ import './OrdemServico.css'
 const OrdemServico = () => {
   return (
     <div className='ordem-servico-area'>
+      <div>
+        
+      </div>
         <h2 className='card-title'>Ordem de serviço</h2>
         <input type="text" className='os-input'/>
     </div>
