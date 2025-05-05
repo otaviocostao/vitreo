@@ -1,0 +1,12 @@
+.clientes-area{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.clientes-container{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}

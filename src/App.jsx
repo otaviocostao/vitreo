@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import NovaVenda from './pages/NovaVenda/NovaVenda';
+import Clientes from './pages/Clientes/Clientes';
 
 function App() {
 
@@ -13,6 +14,12 @@ function App() {
             path="/" 
             element={
                 <Home />
+            } 
+          />
+          <Route 
+            path="/clientes" 
+            element={
+                <Clientes />
             } 
           />
           <Route 
