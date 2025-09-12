@@ -1,0 +1,6 @@
+[submodule "vitreo-backend"]
+	path = vitreo-backend
+	url = https://github.com/otaviocostao/vitreo-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/otaviocostao/vitreo-frontend.git
